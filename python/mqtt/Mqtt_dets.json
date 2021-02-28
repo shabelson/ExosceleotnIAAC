@@ -1,0 +1,142 @@
+{
+    "BrokerIP":"192.68.1.67",
+    "Topics":
+    [
+        
+        {
+                "name":"IMU1_sense",
+                "gyro_x":"gyro_x",
+                "gyro_y":"gyro_y",
+                "gyro_z":"gyro_z",
+ 
+                "accel_x":"accel_x",
+                "accel_y":"accel_y",
+                "accel_z":"accel_z",
+
+                "gFroce_x":"gFroce_x",
+                "gFroce_y":"gFroce_y",
+                "gFroce_z":"gFroce_z",
+
+                "rot_x":"rot_x",
+                "rot_y":"rot_y",
+                "rot_z":"rot_z"
+
+                },       
+                {
+                "name":"IMU2_sense",
+                "gyro_x":"gyro_x",
+                "gyro_y":"gyro_y",
+                "gyro_z":"gyro_z",
+ 
+                "accel_x":"accel_x",
+                "accel_y":"accel_y",
+                "accel_z":"accel_z",
+
+                "gFroce_x":"gFroce_x",
+                "gFroce_y":"gFroce_y",
+                "gFroce_z":"gFroce_z",
+
+                "rot_x":"rot_x",
+                "rot_y":"rot_y",
+                "rot_z":"rot_z"
+            },   
+            {
+                "name":"IMU3_sense",
+                "gyro_x":"gyro_x",
+                "gyro_y":"gyro_y",
+                "gyro_z":"gyro_z",
+ 
+                "accel_x":"accel_x",
+                "accel_y":"accel_y",
+                "accel_z":"accel_z",
+
+                "gFroce_x":"gFroce_x",
+                "gFroce_y":"gFroce_y",
+                "gFroce_z":"gFroce_z",
+
+                "rot_x":"rot_x",
+                "rot_y":"rot_y",
+                "rot_z":"rot_z"
+            
+            },   
+
+            {
+                "name":"IMU1_robo",
+                "gyro_x":"gyro_x",
+                "gyro_y":"gyro_y",
+                "gyro_z":"gyro_z",
+ 
+                "accel_x":"accel_x",
+                "accel_y":"accel_y",
+                "accel_z":"accel_z",
+
+                "gFroce_x":"gFroce_x",
+                "gFroce_y":"gFroce_y",
+                "gFroce_z":"gFroce_z",
+
+                "rot_x":"rot_x",
+                "rot_y":"rot_y",
+                "rot_z":"rot_z"
+
+                },       
+            {
+                "name":"IMU2_robo",
+                "gyro_x":"gyro_x",
+                "gyro_y":"gyro_y",
+                "gyro_z":"gyro_z",
+ 
+                "accel_x":"accel_x",
+                "accel_y":"accel_y",
+                "accel_z":"accel_z",
+
+                "gFroce_x":"gFroce_x",
+                "gFroce_y":"gFroce_y",
+                "gFroce_z":"gFroce_z",
+
+                "rot_x":"rot_x",
+                "rot_y":"rot_y",
+                "rot_z":"rot_z"
+            },   
+            {
+                "name":"IMU3_robo",
+                "gyro_x":"gyro_x",
+                "gyro_y":"gyro_y",
+                "gyro_z":"gyro_z",
+ 
+                "accel_x":"accel_x",
+                "accel_y":"accel_y",
+                "accel_z":"accel_z",
+
+                "gFroce_x":"gFroce_x",
+                "gFroce_y":"gFroce_y",
+                "gFroce_z":"gFroce_z",
+
+                "rot_x":"rot_x",
+                "rot_y":"rot_y",
+                "rot_z":"rot_z"
+            
+            },   
+            {
+            "name":"fingers",
+            "fingerSense1":"finger1",
+            "fingerSense2":"finger2",
+            "fingerSense3":"finger3",
+            "fingerSense4":"finger4",
+            "fingerSense5":"finger5"
+            },
+            {
+            "name":"pneumatic",
+            "pump":"pump",
+            "valve1":"valve1",
+            "valve2":"valve2",
+            "valve3":"valve3",
+            "valve4":"valve4",
+            "valve5":"valve5"
+            },
+            {
+            "name":"emg",
+            "emgSense":"emg"
+            }
+        ]
+ 
+}

@@ -1,0 +1,9 @@
+https://github.com/patmorli/BPK409-Lab3-EMG/
+
+https://github.com/patmorli/BPK409-Lab3-EMG/tree/master/ProvidedMicrocontrollerCodes
+
+https://scientificallysound.org/2016/08/18/python-analysing-emg-signals-part-3/
+
+https://makersportal.com/blog/2018/2/25/python-datalogger-reading-the-serial-output-from-arduino-to-analyze-data-using-pyserial?fbclid=IwAR3ubShmwU4Ck6isC15B2Ez0WX6OvUfbPzmokuq74LEFIzxTtidtH05f-1E
+
+https://makersportal.com/blog/2018/8/14/real-time-graphing-in-python

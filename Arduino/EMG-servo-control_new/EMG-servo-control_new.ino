@@ -3,10 +3,14 @@ Servo elbowJoint;     // Naming our servo ‘elbowJoint’
 int EMGsig;           // Store the EMG signal value
 int servoPosition;    // The position (angle) value for the servo
 int threshold = 100;  // Move the servo when EMG signal is above this threshold. Remember it ranges 0–1023.
+
+
+
+
 void setup() {
  Serial.begin(9600); // Starting the communication with the computer
  elbowJoint.attach(9); // Tell the servo it is plugged into pin 9
- analogReference(EXTERNAL); //It uses the AREF for voltage reference. it gives the data to 3.3v insdtead of 5v
+
 }
 void loop() {
  EMGsig = analogRead(A0); // Read the analog values of the rectified+integrated EMG signal (0–1023)

@@ -17,7 +17,8 @@ ln1 = ax.plot([],[],'ro')[0]
 print (ln1)
 def animate(i):
     text = fileName.readline()
-    text = text.split('||')
+    print (text)
+    text = text.split(',')
 
     for num in text:
         try:
@@ -35,8 +36,8 @@ def animate(i):
       
 
     
-with open("C:/Users/shabe/OneDrive/Documents/iaac/sem12/hardware/PYSCRIPTS/tstData.csv",'r') as fileName:   
+with open("C:\\Users\\shabe\\OneDrive\\Documents\\GitHub\\ExosceleotnIAAC\\ExosceleotnIAAC\\test_data.csv",'r') as fileName:   
     
     ani = fan(fig,animate,interval = 25)
     plt.show()
-    fileName.truncate()
+    
